@@ -1,20 +1,20 @@
 import streamlit as st
 
 # Diseño personalizado
-st.header("Aplicacón 1")
+st.header("Aplicacion 1")
 
 import streamlit as st
 import paho.mqtt.client as mqtt
-import db
+import db as db
 
 client = None
 input_message = ""
 
-db.create_database()
-#db.add_setting("","","","")
+# db.create_database()
+db.add_setting("","","","")
 
 setting = db.get_setting()
-#st.write(setting)
+st.write(setting)
 
 
 with st.expander("Configuración"):

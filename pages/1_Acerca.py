@@ -1,7 +1,7 @@
 import streamlit as st
 
 #Diseño personalizado
-st.header("Acerca")
+
 import streamlit as st
 
 # Título de la aplicación

@@ -5,7 +5,7 @@ st.header("Aplicacón 1")
 import streamlit as st
 
 # Título de la aplicación
-st.title("To-Do List App")
+st.title("Lista de To Dos")
 
 # Crear una lista para almacenar las tareas
 tasks = []
